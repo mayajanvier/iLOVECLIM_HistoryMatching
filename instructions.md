@@ -11,22 +11,24 @@ pip show mogp_emulator
 Copy and paste it 
 
 # Install EXETER_MOGP
-Execute this command in the main folder. 
+Execute this command in the main folder: 
 ```
 git clone -b devel https://github.com/BayesExeter/ExeterUQ_MOGP
 ```
 
-# BuildEmulator.R
-
+# Modify BuildEmulator.R
+Go to ExeterUQ_MOGP/BuildEmulator/BuildEmulator.R. Replace the ```source``` lines by :
+```
 source("ExeterUQ_MOGP/BuildEmulator/AutoLMcode.R")
-
 source("ExeterUQ_MOGP/BuildEmulator/CustomPredict.R")
+```
 
-# HistoryMatching.R
-
+# Modify HistoryMatching.R
+Go to ExeterUQ_MOGP/HistoryMatching/HistoryMatching.R. Replace the source line by:
+```
 source("ExeterUQ_MOGP/HistoryMatching/impLayoutplot.R")
-
-replace ImplausibilityMOGP function by (to add parallelization, PR request pending):
+```
+Replace ImplausibilityMOGP function by (to add parallelization, PR request pending):
 
 ```
 ImplausibilityMOGP <- function(NewData, Emulator, Discrepancy, Obs, ObsErr, parallel=TRUE){
@@ -40,7 +42,7 @@ ImplausibilityMOGP <- function(NewData, Emulator, Discrepancy, Obs, ObsErr, para
   }
 }
 ```
-same, replace CreateImpList function by
+Same, replace CreateImpList function by
 
 ```
 CreateImpList <- function(whichVars, VarNames, ImpData, nEms=1, Resolution=c(15,15), whichMax=3,Cutoff=3, parallel=TRUE){
