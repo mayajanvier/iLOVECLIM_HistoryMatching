@@ -1,0 +1,9 @@
+{
+    "NB_YEAR_SIMU": 20,
+    "NB_YEAR_TRUTH":20,
+    "NAME_START": "SHI_START",
+    "NAME_EXP": "ATM-EVO_MEAN_20L",
+    "WAVE_K_MEANS": 1,
+    "WAVE_CANDIDATE": 2,
+    "OPT_CLUSTERS": 7
+}
