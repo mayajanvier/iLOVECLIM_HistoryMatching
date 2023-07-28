@@ -1,14 +1,14 @@
-# install mogp_emulator
+# Install mogp_emulator
 ```
 pip install mogp_emulator=0.5.0
 ```
 (already done if you're using binder)
 
-# find path of mogp_emulator
+# Find path of mogp_emulator
 ```
 pip show mogp_emulator
 ```
-Copy and paste it 
+Copy and paste the path as the mogp_dir variable in the Experiments/ARTICLE_HM-TuningILC notebook. 
 
 # Install EXETER_MOGP
 Execute this command in the main folder: 
