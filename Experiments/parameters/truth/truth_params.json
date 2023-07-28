@@ -1,0 +1,11 @@
+{
+    "ampwir":1.0,
+    "expir":0.4,
+    "relhmax":0.83,
+    "alphd":0.72,
+    "ai":300,
+    "cwdrag":2.1e-3,
+    "aitd":300,
+    "avkb":1.5e-5,
+    "cgren":0.04
+}
