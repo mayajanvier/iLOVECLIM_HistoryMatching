@@ -1,15 +1,20 @@
 # install mogp_emulator
-
-pip install mogp_emulator=0.5.0 
+```
+pip install mogp_emulator=0.5.0
+```
 (already done if you're using binder)
 
 # find path of mogp_emulator
-
+```
 pip show mogp_emulator
+```
+Copy and paste it 
 
 # Install EXETER_MOGP
-
+Execute this command in the main folder. 
+```
 git clone -b devel https://github.com/BayesExeter/ExeterUQ_MOGP
+```
 
 # BuildEmulator.R
 
