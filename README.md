@@ -1,5 +1,5 @@
 # iLOVECLIM_HistoryMatching
-Source code of [Surrogate modeling based History Matching for an Earth system model of intermediate complexity](https://www.climatechange.ai/papers/neurips2023/54), accepted paper and poster at NeurIps CCAI Workshop 2023.
+Source code of [Surrogate modeling based History Matching for an Earth system model of intermediate complexity](https://www.climatechange.ai/papers/neurips2023/54), accepted paper and poster at NeurIPS CCAI Workshop 2023.
 
 # Installation
 This work is in continuity with the repository [L96HistoryMatching](https://github.com/HRMES-MOPGA/L96HistoryMatching), so you need to set up the same environment. To install the Python and R environment, use conda command: 
