@@ -18,3 +18,6 @@ For the rest of the setup, please read the instructions.md file.
 
 To reproduce an experiment, start with the HM-TuningILC notebook. Indicate the name of the experiment you want to run, and start running.
 If you want to create your own experiment, you can create a params.json file, on the model of the json in the Experiments/parameters/simulations folder. You will then need to run HM-TuningILC and Get-metrics alternatively starting with the former, as well as runnning iLOVECLIM. Don't forget to precise the name of the experiment you wanna run in the beginning of both notebooks (choose_exp variable). 
+
+# Using iLOVECLIM
+You can contact the team on this [website](https://www.iloveclim.eu).
